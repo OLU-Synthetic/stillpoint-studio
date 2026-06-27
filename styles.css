@@ -1,14 +1,14 @@
 /* Stillpoint Studio — clean branded business-card site */
 
 :root {
-  --bg: #f7fbff;
+  --bg: #fbfaf6;
   --paper: rgba(255, 255, 255, 0.76);
-  --ink: #162033;
-  --muted: #6c7890;
-  --line: rgba(65, 91, 130, 0.16);
-  --blue: #b9d8ff;
-  --blue-deep: #42658f;
-  --shadow: 0 34px 120px rgba(42, 67, 101, 0.16);
+  --ink: #171717;
+  --muted: #77716a;
+  --line: rgba(60, 50, 35, 0.13);
+  --blue: #e8dcc8;
+  --blue-deep: #7b684d;
+  --shadow: 0 34px 120px rgba(70, 55, 35, 0.13);
 }
 
 * {
@@ -93,9 +93,9 @@ a {
 .logo-frame {
   display: grid;
   place-items: center;
-  width: clamp(118px, 18vw, 154px);
-  height: clamp(118px, 18vw, 154px);
-  margin: 0 auto 34px;
+  width: clamp(64px, 10vw, 86px);
+  height: clamp(64px, 10vw, 86px);
+  margin: 0 auto 24px;
   border: 1px solid rgba(22, 32, 51, 0.08);
   border-radius: 32px;
   background: #020202;
