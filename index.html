@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Stillpoint Studio — games, moving image, BTS photography and real-time spaces." />
+  <meta name="theme-color" content="#090908" />
+  <meta property="og:title" content="Stillpoint Studio" />
+  <meta property="og:description" content="Interactive real-time works, moving image, BTS photography and atmospheric systems." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og-stillpoint.svg" />
+  <title>Stillpoint Studio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preload" href="styles.css" as="style" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor-orb" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-elevate>
+    <a class="brand" href="#top" aria-label="Stillpoint Studio home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 42 42" role="img">
+          <circle cx="21" cy="21" r="18.5"></circle>
+          <path d="M10.5 21h21M21 10.5v21"></path>
+          <circle cx="21" cy="21" r="3.2"></circle>
+        </svg>
+      </span>
+      <span>
+        <strong>Stillpoint</strong>
+        <em>Studio</em>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#practice">Practice</a>
+      <a href="#stills">Stills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav">
+      <span></span><span></span>
+      <span class="sr-only">Menu</span>
+    </button>
+  </header>
+
+  <nav id="mobile-nav" class="mobile-nav" hidden aria-label="Mobile navigation">
+    <a href="#work">Work</a>
+    <a href="#practice">Practice</a>
+    <a href="#stills">Stills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main id="main">
+    <section id="top" class="hero section-shell">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="orb orb-a"></div>
+        <div class="orb orb-b"></div>
+        <div class="orb orb-c"></div>
+        <div class="grid-haze"></div>
+      </div>
+
+      <div class="hero-copy" data-reveal>
+        <p class="eyebrow">Games · Moving Image · BTS · Real-Time Spaces</p>
+        <h1>
+          Still images for unstable worlds.
+          <span>Interactive systems for pressure, atmosphere and desire.</span>
+        </h1>
+        <p class="lede">
+          Stillpoint Studio is a compact container for experimental games, film documentation,
+          atmospheric photography and real-time art direction.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary magnetic" href="#work">View work</a>
+          <a class="button button-secondary magnetic" href="#contact">Contact / links</a>
+        </div>
+      </div>
+
+      <aside class="hero-panel glass-card" data-reveal data-delay="120" aria-label="Studio status">
+        <div class="status-line">
+          <span class="pulse"></span>
+          <span>Available for small, focused documentation and real-time art projects.</span>
+        </div>
+        <div class="spec-grid">
+          <div>
+            <span>Output</span>
+            <strong>Stills / Games / Film</strong>
+          </div>
+          <div>
+            <span>Mode</span>
+            <strong>Atmospheric, lean, authored</strong>
+          </div>
+          <div>
+            <span>Base</span>
+            <strong>Sydney / online</strong>
+          </div>
+          <div>
+            <span>Signal</span>
+            <strong>Dark, minimal, precise</strong>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="marquee" aria-label="Studio disciplines">
+      <div class="marquee-track">
+        <span>First-person experiences</span>
+        <span>BTS photography</span>
+        <span>Game atmosphere</span>
+        <span>Moving image</span>
+        <span>Interactive rules</span>
+        <span>Environmental pressure</span>
+        <span>First-person experiences</span>
+        <span>BTS photography</span>
+        <span>Game atmosphere</span>
+        <span>Moving image</span>
+      </div>
+    </section>
+
+    <section id="work" class="section-shell split-section">
+      <div class="section-heading" data-reveal>
+        <p class="eyebrow">Selected work</p>
+        <h2>One clean identity for the different outputs.</h2>
+        <p>
+          Use these cards as placeholders. Replace the titles, links and descriptions when the projects are ready.
+          The site is already structured like a serious portfolio, not a student dumping ground.
+        </p>
+      </div>
+
+      <div class="work-controls" data-reveal data-delay="80" aria-label="Project filters">
+        <button class="chip is-active" type="button" data-filter="all">All</button>
+        <button class="chip" type="button" data-filter="game">Games</button>
+        <button class="chip" type="button" data-filter="photo">BTS / Photo</button>
+        <button class="chip" type="button" data-filter="film">Moving image</button>
+      </div>
+
+      <div class="project-grid" aria-live="polite">
+        <article class="project-card tall" data-kind="game" data-reveal>
+          <a href="#" aria-label="Open The Wanting Room project">
+            <div class="project-visual visual-egg">
+              <span class="visual-label">Interactive / 2026</span>
+            </div>
+            <div class="project-body">
+              <p class="project-type">First-person experience</p>
+              <h3>The Wanting Room</h3>
+              <p>
+                A short authored chamber about desire, pursuit and the object that never stays where it is.
+              </p>
+            </div>
+          </a>
+        </article>
+
+        <article class="project-card" data-kind="game" data-reveal data-delay="60">
+          <a href="#" aria-label="Open Don’t Look at the Moon project">
+            <div class="project-visual visual-moon">
+              <span class="visual-label">Rule horror</span>
+            </div>
+            <div class="project-body">
+              <p class="project-type">Game / real-time</p>
+              <h3>Don’t Look at the Moon</h3>
+              <p>A corridor horror piece built around one brutal rule and its inevitable failure.</p>
+            </div>
+          </a>
+        </article>
+
+        <article class="project-card" data-kind="photo" data-reveal data-delay="120">
+          <a href="#" aria-label="Open BTS stills project">
+            <div class="project-visual visual-stills">
+              <span class="visual-label">BTS set</span>
+            </div>
+            <div class="project-body">
+              <p class="project-type">Photography</p>
+              <h3>Film Class BTS</h3>
+              <p>Behind-the-scenes documentation: crew, light, tools, tension, waiting.</p>
+            </div>
+          </a>
+        </article>
+
+        <article class="project-card" data-kind="film" data-reveal data-delay="180">
+          <a href="#" aria-label="Open moving image project">
+            <div class="project-visual visual-frame">
+              <span class="visual-label">Moving image</span>
+            </div>
+            <div class="project-body">
+              <p class="project-type">Video / study</p>
+              <h3>Moving Image Tests</h3>
+              <p>Short studies in framing, mood, texture, ritual and pressure.</p>
+            </div>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section id="practice" class="section-shell practice-section">
+      <div class="section-heading narrow" data-reveal>
+        <p class="eyebrow">Practice</p>
+        <h2>Not a generic creative portfolio. A controlled signal.</h2>
+      </div>
+
+      <div class="practice-grid">
+        <div class="practice-card glass-card" data-reveal>
+          <span class="index">01</span>
+          <h3>Atmosphere as structure</h3>
+          <p>Light, sound, pacing and environment are treated as systems, not decoration.</p>
+        </div>
+        <div class="practice-card glass-card" data-reveal data-delay="80">
+          <span class="index">02</span>
+          <h3>One rule, hard pressure</h3>
+          <p>Each interactive work aims for a sharp rule that organizes behavior and meaning.</p>
+        </div>
+        <div class="practice-card glass-card" data-reveal data-delay="160">
+          <span class="index">03</span>
+          <h3>Document the process</h3>
+          <p>BTS stills become evidence: production, bodies, gear, waiting, misfires and attention.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="stills" class="section-shell stills-section">
+      <div class="section-heading" data-reveal>
+        <p class="eyebrow">Stills / BTS</p>
+        <h2>Use this section for the film-class release.</h2>
+        <p>
+          Drop your strongest BTS images into <code>assets/stills/</code>, then swap the placeholders in the HTML.
+          Keep the watermark tiny. The site should do the heavy branding.
+        </p>
+      </div>
+
+      <div class="stills-wall" data-gallery>
+        <button class="still still-1" type="button" data-caption="Light check / blocked frame">
+          <span>01</span>
+        </button>
+        <button class="still still-2" type="button" data-caption="Crew waiting / pressure before action">
+          <span>02</span>
+        </button>
+        <button class="still still-3" type="button" data-caption="Monitor, body, apparatus">
+          <span>03</span>
+        </button>
+        <button class="still still-4" type="button" data-caption="Set texture / incidental evidence">
+          <span>04</span>
+        </button>
+        <button class="still still-5" type="button" data-caption="Between takes / human machinery">
+          <span>05</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="quote-band section-shell" data-reveal>
+      <p>
+        “The point is not to look expensive. The point is to look decided.”
+      </p>
+    </section>
+
+    <section id="contact" class="section-shell contact-section">
+      <div class="contact-card glass-card" data-reveal>
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Send people here. Not to a scattered pile of test accounts.</h2>
+          <p>
+            Replace the placeholder links below. Until the rest of your identity is cleaned,
+            this page acts as the stable front door.
+          </p>
+        </div>
+
+        <div class="link-stack">
+          <a class="link-row" href="mailto:replace-with-your-email@example.com">
+            <span>Email</span>
+            <strong>replace-with-your-email@example.com</strong>
+          </a>
+          <a class="link-row" href="#" target="_blank" rel="noreferrer">
+            <span>Itch</span>
+            <strong>Add your game page</strong>
+          </a>
+          <a class="link-row" href="#" target="_blank" rel="noreferrer">
+            <span>Instagram</span>
+            <strong>Add the account you are willing to stand behind</strong>
+          </a>
+          <a class="link-row" href="#" target="_blank" rel="noreferrer">
+            <span>Video</span>
+            <strong>Vimeo / YouTube / archive</strong>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="lightbox" aria-label="Still preview">
+    <button class="lightbox-close" type="button" aria-label="Close preview">×</button>
+    <div class="lightbox-frame"></div>
+    <p class="lightbox-caption"></p>
+  </dialog>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Stillpoint Studio. Games, moving image and stills.</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
